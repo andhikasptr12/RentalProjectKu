@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Intervention\Image\Facades\Image;
+use App\Item;
+use App\Transaction;
 
 class BarangController extends Controller
 {
